@@ -500,6 +500,8 @@ h2 {
 
 @media screen and (min-width: 1250px) {
     .right {
-        margin-top: 200px;
-    }
+        margin-top: 5%;
+        text-align: left;
+        width: 50%;
+        padding-right: 500px;
 }
