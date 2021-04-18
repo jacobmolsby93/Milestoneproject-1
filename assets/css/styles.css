@@ -131,3 +131,115 @@ body {
     color: white;
     transition: .5sec;
 }
+
+
+
+/* Footer */
+
+.main-footer {
+    padding: 0;
+    margin: 0;
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+
+[type=email] {
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#emailf {
+    width: 400px;
+}
+
+
+#submitf {
+    margin-top: 5px;
+    background-color: white;
+    border: none;
+    width: 400px;
+    height: 40px;
+    font-size: 1.25em;
+}
+
+#submitf:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+    border: 1px solid white;
+}
+
+
+
+#footer-form,
+h2 {
+    text-align: center;
+}
+
+#emailf {
+    background-color: black;
+}
+
+#sub {
+    margin-top: 0;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-top: 3.5rem;
+}
+
+.social li {
+    display: inline;
+    padding-top: 2rem;
+}
+
+.social a {
+    color: white;
+    text-align: center;
+    margin-right: 66px;
+    font-size: 2em;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.footer-nav li {
+    padding-left: 2rem;
+    border-left: 1px solid white;
+    margin-top: 30px;
+
+
+}
+
+.footer-nav a {
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-nav a:hover {
+    color: rgb(53, 52, 52);
+
+}
+
+.social a:hover {
+    color: rgb(53, 52, 52);
+}
+
