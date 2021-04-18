@@ -132,6 +132,70 @@ body {
     transition: .5sec;
 }
 
+/* 3 images section */
+
+.img-section {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 2em;
+}
+
+.left-about {
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+
+.img-html {
+    background-image: url(../images/html.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+
+.right-about {
+    width: 33%;
+    height: 300px;
+    float: right;
+}
+
+.img-css {
+    background-image: url(../images/css.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+
+}
+
+.center-about {
+    width: 33%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.img-fullstack {
+    background-image: url(../images/fullstack.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
 
 
 /* Footer */
