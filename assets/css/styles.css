@@ -197,6 +197,133 @@ body {
 }
 
 
+/* Iframe section */
+
+/* About me page */
+
+.myimage {
+    background-image: url(../images/jacobmolsby.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+
+    width: 150%;
+    height: 75%;
+}
+
+/* Services*/
+
+/* Work */
+
+/* Contact */
+
+.left-contact {
+    width: 100%;
+    height: 600px;
+
+}
+
+.right-contact {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
+
+.form-style {
+    background-color: rgb(53, 52, 52);
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: left;
+    margin-left: 30px;
+    color: white;
+    margin: 10px;
+    width: 270px;
+}
+
+#submitc {
+    width: 150px;
+    height: 40px;
+    letter-spacing: 1px;
+    font-size: 1.12em;
+    border: none;
+}
+
+#submitc:hover {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.form-style:hover {
+    color: black;
+    transition: .3s;
+}
+
+input[type="email"] {
+    background-color: rgb(53, 52, 52);
+    width: 270px;
+}
+
+
+
+#message {
+    margin-bottom: 10px;
+    width: 570px;
+    resize: none;
+}
+
+#planning-image {
+    background-image: url(../images/planning.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+#gallery-wrapper {
+    width: 100%;
+    height: 300px;
+}
+
+#img1 {
+    background-image: url(../images/wireframe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding-right: 10px;
+}
+
+#img3 {
+    background-image: url(../images/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 300px;
+    float: right;
+    padding-left: 10px;
+}
+
+#img2 {
+    background-image: url(../images/coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+
 
 /* Footer */
 
