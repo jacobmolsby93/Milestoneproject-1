@@ -497,3 +497,9 @@ h2 {
     }
 
 }
+
+@media screen and (min-width: 1250px) {
+    .right {
+        margin-top: 200px;
+    }
+}
