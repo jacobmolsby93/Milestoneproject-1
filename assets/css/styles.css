@@ -281,6 +281,7 @@ input[type="email"] {
     margin-bottom: 10px;
     width: 570px;
     resize: none;
+    font-family: Raleway, sans-serif;
 }
 
 #planning-image {
@@ -290,6 +291,7 @@ input[type="email"] {
     background-repeat: no-repeat;
     width: 100%;
     height: 600px;
+    
 }
 
 #gallery-wrapper {
@@ -382,23 +384,26 @@ h2 {
 }
 
 #sub {
-    margin-top: 0;
-    padding-top: 2rem;
+    margin-top: 0px;
+    padding-top: 4rem;
     letter-spacing: 2px;
 }
 
 .social {
-    text-align: center;
+    text-align: right;
+    
 }
 
 .social ul {
-    list-style-type: none;
-    padding-top: 3.5rem;
+    list-style: none;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .social li {
-    display: inline;
-    padding-top: 2rem;
+    margin-top: 30px;
 }
 
 .social a {
