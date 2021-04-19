@@ -225,6 +225,10 @@ body {
     height: 750px;
 }
 
+.left-me ul {
+    min-width: 500px;
+}
+
 .myimage {
     background-image: url(../images/jacobmolsby.jpg);
     background-size: cover;
@@ -235,6 +239,30 @@ body {
     width: 350px;
     height: 650px;
     border-radius: 40px;
+}
+
+@media screen and (min-width: 1300px) {
+    .left-me  {
+        text-align: left;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .right-me {
+        width: 90%;
+        height: 300px;
+        float: none;
+        padding-right: 50px;
+  
+    }
+    .left-me {
+        height: 600px;
+        clear: both;
+        width: 90%;
+        margin-top: 400px;
+        margin-bottom: 40px;
+    }
 }
 
 /* Services*/
