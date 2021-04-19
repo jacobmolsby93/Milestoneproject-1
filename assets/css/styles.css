@@ -208,28 +208,48 @@ body {
 
 /* About me page */
 
+.aboutme {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.right-me {
+    width: 50%;
+    height: 750px;
+    float: right;
+}
+
+.left-me {
+    width: 50%;
+    height: 750px;
+}
+
 .myimage {
     background-image: url(../images/jacobmolsby.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-left: 12.5%;
 
-    width: 150%;
-    height: 75%;
+    width: 350px;
+    height: 650px;
+    border-radius: 40px;
 }
 
 /* Services*/
 
 .service-title {
     margin: 0;
+    margin-bottom: 10px;
     padding: 0;
+    letter-spacing: 2px;
 }
 
 .img-wrapper-service {
     width: 100%;
     height: 75vh;
-    margin-bottom: 7.5px;
+    margin-bottom: 20px;
 }
 
 .service-image {
@@ -489,11 +509,12 @@ h2 {
 
 .social ul {
     list-style: none;
-    
     position: absolute;
     top: 0;
     right: 0;
 }
+
+
 
 .social li {
     margin-top: 30px;
@@ -539,16 +560,9 @@ h2 {
 
 /* Media Queries */
 
-@media screen and (max-width: 650px) {
-    .footer-nav ul {
-        position: relative;
-        background-color: black;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        margin-bottom: 0;
 
-    }
-}
+
+/* Landing page media */
 
 @media screen and (min-width:1200px) {
 
@@ -602,5 +616,59 @@ h2 {
         text-align: left;
         width: 50%;
         padding-right: 500px;
+    }
+}
+
+/* Service page media */
+
+@media screen and (max-width: 650px) {
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        float: none;
+        height: 300px;
+        clear: both;
+    }
+
+    .box3 {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Footer media */
+
+@media screen and (max-width: 650px) {
+    .footer-nav ul {
+        position: relative;
+        background-color: black;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+
+    }
+
+    .social ul {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .social ul {
+        padding-top: 40%;
+
+    }
+
+    .footer-nav ul {
+        width: 50%;
+        float: left;
+    }
+
+    .main-footer {
+        height: 450px;
     }
 }
