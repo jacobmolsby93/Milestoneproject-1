@@ -225,8 +225,14 @@ body {
     height: 750px;
 }
 
-.left-me ul {
+#text-wrapper {
     min-width: 500px;
+    margin-left: 20px;
+}
+
+#text-wrapper h4 {
+    letter-spacing: 2px;
+    text-decoration: underline;
 }
 
 .myimage {
@@ -241,27 +247,22 @@ body {
     border-radius: 40px;
 }
 
-@media screen and (min-width: 1300px) {
-    .left-me  {
-        text-align: left;
-        margin-left: 400px;
-    }
-}
 
-@media screen and (max-width: 650px) {
-    .right-me {
-        width: 90%;
-        height: 300px;
-        float: none;
-        padding-right: 50px;
-  
-    }
     .left-me {
         height: 600px;
         clear: both;
         width: 90%;
         margin-top: 400px;
         margin-bottom: 40px;
+    }
+
+    #text-wrapper {
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    #text-wrapper p {
+        width: 80%;
     }
 }
 
@@ -335,22 +336,7 @@ body {
     margin-top: 50px;
 }
 
-@media screen and (max-width: 650px) {
-    .box1,
-    .box2,
-    .box3 {
-        width: 100%;
-        float: none;
-        height: 300px;
-        clear: both;
-    }
 
-    .box3 {
-        margin-top: 20px;
-    }
-
-
-}
 
 
 
@@ -647,7 +633,46 @@ h2 {
     }
 }
 
+/* About me */
+@media screen and (min-width: 1250px) {
+    .left-me  {
+        text-align: left;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .right-me {
+        width: 90%;
+        height: 300px;
+        float: none;
+        padding-right: 50px;
+  
+    }
+
 /* Service page media */
+
+@media screen and (max-width: 650px) {
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        float: none;
+        height: 300px;
+        clear: both;
+    }
+
+    .box3 {
+        margin-top: 20px;
+    }
+
+    .service-title {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+
+}
 
 @media screen and (max-width: 650px) {
     .box1,
