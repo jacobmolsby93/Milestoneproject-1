@@ -325,7 +325,6 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 300px 300px;
-    grid-auto-columns: 300px;
     grid-auto-rows: 300px;
     grid-gap: 20px;
     justify-content: center;
@@ -336,23 +335,47 @@ body {
 }
 
 .grid-item-1 {
-    background-color: black;
+    background-image: url(../images/bigdata.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
     
 }
 .grid-item-2 {
-    background-color: black;
+    background-image: url(../images/dadaab.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
 }
 .grid-item-3 {
-    background-color: black;
+    background-image: url(../images/edseyart.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
 }
 .grid-item-4 {
-    background-color: black;
+    background-image: url(../images/juliana.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
 }
 .grid-item-5 {
-    background-color: black;
+    background-image: url(../images/mustafa.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
 }
 .grid-item-6 {
-    background-color: black;
+    background-image: url(../images/timenews.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
 }
 
 /* Contact */
