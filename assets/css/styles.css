@@ -662,6 +662,10 @@ h2 {
         clear: both;
     }
 
+    .box2 {
+        margin-top: 20px;
+    }
+
     .box3 {
         margin-top: 20px;
     }
@@ -670,8 +674,6 @@ h2 {
         margin-top: 20px;
         padding-top: 20px;
     }
-
-
 }
 
 @media screen and (max-width: 650px) {
