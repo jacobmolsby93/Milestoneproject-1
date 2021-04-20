@@ -11,3 +11,19 @@ For now, the projects and links are fake and will not showcase my knowledge.
 The design i have chosen is minimalistic, with dark tones. Illustrations are taken from pexels and unplash.
 
 </p>
+
+<br>
+<br>
+
+## References 
+
+<ul>
+<li>
+Websites taken from https://www.intechnic.com/blog/top-50-examples-best-responsive-designs/
+</li>
+<br>
+<li>
+Grid layout learned from Web-dev Simplified.
+https://www.youtube.com/watch?v=9zBsdzdE4sM&t=904s
+</li>
+</ul>
