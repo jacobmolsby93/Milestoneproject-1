@@ -248,23 +248,7 @@ body {
 }
 
 
-    .left-me {
-        height: 600px;
-        clear: both;
-        width: 90%;
-        margin-top: 400px;
-        margin-bottom: 40px;
-    }
 
-    #text-wrapper {
-        width: 90%;
-        margin-right: 20px;
-    }
-
-    #text-wrapper p {
-        width: 80%;
-    }
-}
 
 /* Services*/
 
@@ -585,6 +569,10 @@ h2 {
     .img-fullstack {
         margin-left: 25%;
     }
+
+    .right, .title, .subtitle, p{
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -637,18 +625,41 @@ h2 {
 @media screen and (min-width: 1250px) {
     .left-me  {
         text-align: left;
-        margin-left: 400px;
+        margin-left: 300px;
+    }
+
+    #text-wrapper {
+        width: 50%;
+        float: left;
     }
 }
 
 @media screen and (max-width: 650px) {
+    .left-me {
+        height: 600px;
+        clear: both;
+        width: 50%;
+        margin-top: 400px;
+        margin-bottom: 40px;
+        
+    }
+
+    #text-wrapper {
+        width: 80%;
+    }
+
+    #text-wrapper p {
+        width: 80%;
+    }    
     .right-me {
         width: 90%;
         height: 300px;
         float: none;
         padding-right: 50px;
-  
     }
+}
+
+
 
 /* Service page media */
 
