@@ -54,7 +54,7 @@ body {
 
 .navbar-toggler {
     margin-left: 80%;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .navbar {
@@ -283,7 +283,7 @@ body {
 
 
 
-/* Services*/
+/* Services */
 
 .service-title {
     margin: 0;
@@ -363,25 +363,38 @@ body {
     grid-column-gap: 10px;
     justify-content: center;
     align-content: center;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 120px;
+
+}
+
+.grid-container a {
+    text-decoration: none;
+    color: black;
 }
 
 .grid-item-1 {
     background-image: url(../images/bigdata.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
 }
 
-.grid-item-1 h2 {
+.hidden {
     visibility: hidden;
     opacity: 0;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    overflow: hidden;
 }
 
-.grid-item-1:hover {
-    background: #ae274f;
+.grid-item-1:hover .hidden{
+    background: #664b45;
     transition: .7s;
+    opacity: 1;
+    visibility: visible;
     
 }
 
@@ -389,37 +402,82 @@ body {
 .grid-item-2 {
     background-image: url(../images/dadaab.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
 }
+
+.grid-item-2:hover .hidden{
+    background: #664b45;
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
 .grid-item-3 {
     background-image: url(../images/edseyart.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
 }
+
+.grid-item-3:hover .hidden{
+    background: #664b45;
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
 .grid-item-4 {
     background-image: url(../images/juliana.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
 }
+
+.grid-item-4:hover .hidden{
+    background: #664b45;
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
 .grid-item-5 {
     background-image: url(../images/mustafa.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
 }
+
+.grid-item-5:hover .hidden{
+    background: #664b45;
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
 .grid-item-6 {
     background-image: url(../images/timenews.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 50%;
     width: 100%;
+}
+
+.grid-item-6:hover .hidden{
+    background: #664b45;
+    transition: .7s;
+    opacity: 1;
+    visibility: visible;
+    
 }
 
 /* Contact */
@@ -529,6 +587,9 @@ input[type="email"] {
     height: 300px;
     margin: 0 auto;
 }
+
+
+
 
 
 /* Footer */
@@ -768,7 +829,7 @@ h2 {
 
 
 
-/* Service page media */
+/* Services page media */
 
 @media screen and (max-width: 650px) {
     .box1,
@@ -792,24 +853,13 @@ h2 {
         margin-top: 20px;
         padding-top: 20px;
     }
+    
+    .img-wrapper-service {
+        margin-bottom: 150px;
+    }
 }
 
-@media screen and (max-width: 650px) {
-    .box1,
-    .box2,
-    .box3 {
-        width: 100%;
-        float: none;
-        height: 300px;
-        clear: both;
-    }
 
-    .box3 {
-        margin-top: 20px;
-    }
-
-
-}
 
 /* Footer media */
 
@@ -843,5 +893,23 @@ h2 {
 
     .main-footer {
         height: 450px;
+    }
+}
+
+/* Contact page media */
+
+@media screen and (max-width: 450px) {
+    #contact-form {
+        width: 380px;
+        text-align: center;
+    }
+
+    #message {
+        width: 300px;
+    }
+
+    .right-contact {
+        margin-bottom: 100px;
+        margin-top: 20px;
     }
 }
