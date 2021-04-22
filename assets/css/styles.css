@@ -357,28 +357,19 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-auto-rows: 300px;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-template-columns: 300px 300px 300px ;
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 20px;
+
     justify-content: center;
     align-content: center;
-    height: 80vh;
-    margin-top: 120px;
-
+    align-items: center;
+    justify-items: center;
 }
 
 .grid-container a {
     text-decoration: none;
     color: black;
-}
-
-.grid-item-1 {
-    background-image: url(../images/bigdata.webp);
-    background-position: center;
-    background-size: contain;
-    height: 50%;
-    width: 100%;
 }
 
 .hidden {
@@ -390,12 +381,23 @@ body {
     overflow: hidden;
 }
 
+.grid-item-1 {
+    background-image: url(../images/bigdata.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+}
+
+
+
 .grid-item-1:hover .hidden{
     background: #664b45;
     transition: .7s;
     opacity: 1;
     visibility: visible;
-    
+    overflow: hidden;
 }
 
 
@@ -403,6 +405,7 @@ body {
     background-image: url(../images/dadaab.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
@@ -420,6 +423,7 @@ body {
     background-image: url(../images/edseyart.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
@@ -436,6 +440,7 @@ body {
     background-image: url(../images/juliana.jpg);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
@@ -452,6 +457,7 @@ body {
     background-image: url(../images/mustafa.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
@@ -468,6 +474,7 @@ body {
     background-image: url(../images/timenews.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
@@ -479,6 +486,26 @@ body {
     visibility: visible;
     
 }
+
+
+@media screen and (max-width: 450px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-left: 55px;
+    }
+
+}
+
 
 /* Contact */
 
