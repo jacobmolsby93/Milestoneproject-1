@@ -54,6 +54,7 @@ body {
 
 .navbar-toggler {
     margin-left: 80%;
+    margin-bottom: 8px;
 }
 
 .navbar {
