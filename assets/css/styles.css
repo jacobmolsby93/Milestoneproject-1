@@ -880,6 +880,12 @@ h2 {
 @media screen and (max-width: 380px) {
     .myimage {
         margin-left: 15px;
+        margin-top: -5px;
+        height: 100%;
+    }
+    
+    #text-wrapper .subtitle {
+        margin-top: 20px;
     }
 
     #text-wrapper p {
