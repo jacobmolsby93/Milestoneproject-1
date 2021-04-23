@@ -34,10 +34,10 @@ body {
     text-decoration: none;
 }
 
-.upper-navigation {
+.upper-nav {
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-color: black !important;
 }
 
 .lower-nav {
@@ -252,11 +252,6 @@ body {
 
 
 
-
-
-
-/* Iframe section */
-
 /* About me page */
 
 .aboutme {
@@ -269,11 +264,17 @@ body {
     width: 50%;
     height: 750px;
     float: right;
+    margin-top: 30px;
 }
 
 .left-me {
     width: 50%;
     height: 750px;
+
+}
+
+#text-wrapper h3 {
+    margin-top: 120px;
 }
 
 #text-wrapper {
@@ -832,7 +833,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     .right-me {
         float: none;
         width: 100%;
@@ -867,6 +868,21 @@ h2 {
 
     .subtitle {
         margin-right: 130px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .myimage {
+        margin-left: 15px;
+    }
+
+    #text-wrapper p {
+        width: 350px;
+    }
+
+    .right-me {
+        height: 600px;
     }
 }
 
