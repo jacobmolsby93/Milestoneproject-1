@@ -942,6 +942,11 @@ h2 {
     #contact-form {
         width: 380px;
         text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #gallery-wrapper {
+        margin-top: 20px;
     }
 
     #message {
@@ -952,6 +957,7 @@ h2 {
         margin-bottom: 100px;
         margin-top: 20px;
     }
+
 }
 
 /* Portfolio media */
