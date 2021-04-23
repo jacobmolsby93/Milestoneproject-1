@@ -783,10 +783,19 @@ h2 {
 
 @media screen and (max-width: 650px) {
 
-    .right, .left {
-        height: 850px;
+    .left {
+        height: 800px;
         width: 100%;
+    }
+
+    .image {
+        height: 800px;
+    }
+
+    .right {
+        height: 800px;
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .title {
