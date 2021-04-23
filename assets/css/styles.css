@@ -838,8 +838,8 @@ h2 {
         float: none;
         width: 100%;
         margin-right: 40px;
-        margin-bottom: -60px;
         padding: 0;
+        height: 600px;
     }
 
     .myimage {
@@ -852,6 +852,7 @@ h2 {
         width: 100%;
         margin: 0;
         padding: 0;
+        overflow:hidden;
     }
 
     .left-me h4 {
@@ -859,7 +860,11 @@ h2 {
     }
 
     #text-wrapper p {
-        width: 380px; 
+        width: 400px; 
+    }
+
+    .left-me {
+        margin-bottom: 20px;
     }
 
     .left-me h4 {
@@ -883,6 +888,11 @@ h2 {
 
     .right-me {
         height: 600px;
+        overflow:hidden;
+    }
+
+    .aboutme {
+        overflow: hidden;
     }
 }
 
@@ -916,8 +926,69 @@ h2 {
     .img-wrapper-service {
         margin-bottom: 150px;
     }
+
+    .service-image {
+        height: 630px;
+    }
 }
 
+
+
+
+
+/* Contact page media */
+
+@media screen and (max-width: 450px) {
+    #contact-form {
+        width: 380px;
+        text-align: center;
+    }
+
+    #message {
+        width: 300px;
+    }
+
+    .right-contact {
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+}
+
+/* Portfolio media */
+
+@media screen and (max-width: 550px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .hidden {
+        margin-left: 40px;
+    
+    }
+
+    .grid-item-1,
+    .grid-item-2,
+    .grid-item-3,
+    .grid-item-4,
+    .grid-item-5,
+    .grid-item-6 {
+        margin-bottom: 10px;
+    }
+}
 
 
 /* Footer media */
@@ -989,42 +1060,4 @@ h2 {
     #emailf {
         width: 80%;
     }
-}
-
-/* Contact page media */
-
-@media screen and (max-width: 450px) {
-    #contact-form {
-        width: 380px;
-        text-align: center;
-    }
-
-    #message {
-        width: 300px;
-    }
-
-    .right-contact {
-        margin-bottom: 100px;
-        margin-top: 20px;
-    }
-}
-
-/* Portfolio media */
-
-@media screen and (max-width: 550px) {
-    .grid-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
-
-    .hidden {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        margin-left: 70px;
-    }
-
 }
