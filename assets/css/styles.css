@@ -930,6 +930,14 @@ h2 {
     .main-footer {
         height: 450px;
     }
+
+    #submitf {
+        width: 80%;
+    }
+
+    #emailf {
+        width: 80%;
+    }
 }
 
 /* Contact page media */
