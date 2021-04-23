@@ -121,6 +121,11 @@ body {
 
 }
 
+.text-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .right p {
     letter-spacing: 2px;
 }
@@ -147,6 +152,7 @@ body {
     font-weight: normal;
     letter-spacing: 2px;
     color: #fff;
+    text-align: left;
 }
 
 .right p {
@@ -164,6 +170,12 @@ body {
 .button:hover {
     color: white;
     transition: .5s;
+}
+
+.subtitle-responsive {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
 }
 
 
@@ -488,23 +500,7 @@ body {
 }
 
 
-@media screen and (max-width: 450px) {
-    .grid-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
 
-    .hidden {
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        margin-left: 55px;
-    }
-
-}
 
 
 /* Contact */
@@ -779,6 +775,10 @@ h2 {
         clear: both;
         margin-bottom: 20px;
     }
+
+    .image {
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -939,4 +939,24 @@ h2 {
         margin-bottom: 100px;
         margin-top: 20px;
     }
+}
+
+/* Portfolio media */
+
+@media screen and (max-width: 550px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-left: 70px;
+    }
+
 }
