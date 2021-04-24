@@ -3,7 +3,7 @@
 [View my Project here!](https://https://jacobmolsby93.github.io/Milestoneproject-1/)
 
 <p>
-This is our first project with The Code Institute, I have choosen to use the project idea 3.
+This is our first project with The Code Institute, I have chosen to use the project idea 3.
 A portfolio website, The website is created using HTML5, CSS3 and some Bootsrap input!
 </p>
 
@@ -28,17 +28,17 @@ First Time Visitor Goals
 <ol>
 <li>
 <p>
-I want visitors to come to my page and see a clear and well worked webpage, 
+I want visitors to come to my page and see a clear and well-worked webpage, 
 </p>
 </li>
 <li>
 <p>
-When you come to my webpage there should be a redline throughout all pages that makes navigation simple and understandable.
+When you come to my webpage there should be a redline throughout all pages that make navigation simple and understandable.
 </p>
 </li>
 <li>
 <p>
-As this is a porfolio website, I want my visitors to be well informed about what i am and what i do. The website itself should act as a testamonial to my visitors.
+As this is a portfolio website, I want my visitors to be well informed about what I am and what I do. The website itself should act as a testimonial to my visitors.
 </p>
 </li>
 </ol>
@@ -50,7 +50,7 @@ Returning Visitor Goals
 <ol>
 <li>
 <p>
-As a returning visitor, I want to easily acces the portfolio and contact page.
+As a returning visitor, I want to easily access the portfolio and contact page.
 </p>
 </li>
 <li>
@@ -70,7 +70,7 @@ As a returning visitor, I want to see the type of services offered on the page a
 Colour Scheme
 <ul>
 <li style="font-weight: normal;">
-The main colors chosen are Black, Grey and white. With secondary color of a brown/orange.
+The main colors chosen are Black, Grey and white. With  the secondary color of brown/orange.
 
 </li>
 </ul>
@@ -80,7 +80,7 @@ The main colors chosen are Black, Grey and white. With secondary color of a brow
 Typography
 <ul>
 <li style="font-weight: normal;">
-The main font that i have chosen is the Raleway font. I found the font on google fonts and thought it would look good with my design.
+The main font that I have chosen is the Raleway font. I found the font on google fonts and thought it would look good with my design.
 The fallback font chosen is the standard font of sans-serif.
 </li>
 </ul>
@@ -90,7 +90,7 @@ The fallback font chosen is the standard font of sans-serif.
 Imagery
 <ul>
 <li style="font-weight: normal;">
-The images chosen for my webpage, are images that suits the design. Minimalistic with color tones of dark. The images are taken from various websites which will be linked further down in this document.
+The images chosen for my webpage, are images that suit the design. Minimalistic with color tones of dark. The images are taken from various websites which will be linked further down in this document.
 </li>
 </ul>
 </li>
@@ -127,7 +127,7 @@ Contact Page Wireframe
 
 <ul>
 <li>
-A Responsive Design which looks good on all devices.
+A Responsive Design that looks good on all devices.
 </li>
 <li>
 Pleasing and informative imagery
@@ -137,8 +137,10 @@ Pleasing and informative imagery
 <h2 style="font-weight: bold;">Technologies Used</h2>
 <hr>
 
-<ul>
+
 <h3 style="font-weight: bold;">Languages Used</h3>
+<ul>
+
 <li>
 <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>
 </li>
@@ -155,14 +157,198 @@ Pleasing and informative imagery
 <a href="https://getbootstrap.com/">Bootstrap</a>
 <ul>
 <li>
-Bootsrap was used for the navigation bar, for it to remain responsive in all devices. And to implement the hamburger icon on the mobile version of the page.
+ Bootsrap was used for the navigation bar, for it to remain responsive on all devices. And to implement the hamburger icon on the mobile version of the page.
 </li>
 </ul>
 </li>
 
 <li>
 <a href="https://www.w3schools.com/cssref/sel_hover.asp">Hover function</a>
+<ul>
+<li>
+ The hover function is used in multiple occasions, for a smoother transition between elements.
+</li>
+</ul>
+</li>
+
+<li>
+<a href="https://fonts.google.com/">Google Fonts</a>
+<ul>
+<li>
+ Google fonts are used to download the font I found appropriate for my website, used together with CSS to implement it.
+</li>
+</ul>
+</li>
+
+<li>
+<a href="https://fontawesome.com/">Font Aweomse</a>
+<ul>
+<li>
+ Font awesome is used to get the icons for the service page, which is showcased in the 3 divs where I provide my services.
+</li>
+</ul>
+</li>
+
+<li>
+<a href="https://git-scm.com/">Git</a>
+<ul>
+<li>
+ Git is used in the Gitpod terminal to push and commit the added code during the process of building the page.
+</li>
+</ul>
+</li>
+
+<li>
+<a href="https://github.com/">GitHub</a>
+<ul>
+<li>
+ GitHub is used to access and see the changes made in the repository made in Gitpod. as well as deploy the website.
+</li>
+</ul>
+</li>
+
+<li>
+<a href="https://balsamiq.com/">Balsamiq</a>
+<ul>
+<li>
+ Balsamiq was used to create the wireframes for the webpage.
+</li>
+</ul>
 </li>
 
 </ol>
 
+
+<h2 style="font-weight: bold;">Testing</h2>
+<hr>
+
+<p>
+Testing was made simple by the use of the W3C Markup Validator, together with the W3C CSS Validator.
+I found that the process is a smooth and easy way of checking your code for any simple mistakes.
+</p>
+
+<ul>
+<li>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjacobmolsby93.github.io%2FMilestoneproject-1%2F" target="_blank">HTML For Entire Page</a>
+</li>
+
+<li>
+<a href="<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p></a>
+</li>
+</ul>
+
+</ul>
+
+<h3 style="font-weight: bold;">Further Testing</h3>
+<ul>
+<li>
+The Website was tested on the following browsers:
+<strong>Google Chrome.
+Mozilla Firefox.
+Safari.</strong>
+</li>
+<br>
+<li>
+The website has been viewed on my bigger laptop, 16" screen. Along as my smaller 13" plus my iPhone 8s. my brother has viewed the page on his iPhone Xs.
+</li>
+<br>
+<li>
+Mainly the testing was done to see if there were any bugs in the CSS. Checking that all the elements appear in the order in which I want.
+</li>
+
+</ul>
+<h3 style="font-weight: bold;">Known Bugs</h3>
+<ul>
+<li>
+The main bug I have come across is on the portfolio page, the overlay on the images. Sometimes does not completely align with the image itself.
+</li>
+<br>
+<li>
+Another bug is that on some devices. On the contact page. the Send button at the bottom of the contact form. Does not appear white, but grey instead.
+</li>
+</ul>
+
+<h2 style="font-weight: bold;">Deployment</h2>
+<hr>
+
+
+<h3 style="font-weight: bold;">GitHub Pages</h3>
+
+<p>
+The Website was deployed using GitHub and its Pages site. An easy way to deploy the project.
+</p>
+
+
+
+<h2 style="font-weight: bold;">Credits</h2>
+<hr>
+
+<h3 style="font-weight: bold;">Code</h3>
+
+<ul>
+
+<li>
+The code for the grid layout on the Portfolio Page was learned from the Youtuber Web-Dev Simplified.
+<a href="https://www.youtube.com/watch?v=9zBsdzdE4sM&t=928s">Link to video here</a>
+</li>
+<br>
+<li>
+<a href="https://getbootstrap.com/has">Bootstrap</a> been copied into the pages to make the navigation bar and the hamburger icon for the mobile version.
+</li>
+<br>
+<li>
+<a href="https://css-tricks.com/">CSS Tricks</a> Has been helpful when trying to make the grid layout on the portfolio page responsive.
+</li>
+
+</ul>
+
+<h2 style="font-weight: bold;">Content</h2>
+<ul>
+<li>
+All content was written by me as the developer.
+</li>
+
+</ul>
+
+
+<h2 style="font-weight: bold;">Media</h2>
+
+
+
+<h3>All of the images were taken from 3 different websites.</h3>
+<ul>
+<li>
+<a href="https://unsplash.com/">Unsplash</a>
+</li>
+<br>
+<li>
+<a href="https://www.pexels.com/">Pexels</a>
+</li>
+<br>
+<li>
+<a href="https://www.google.com/">Google</a>
+</li>
+
+</ul>
+
+<h3>The Websites Used In The Portfolio Page Are Taken From:</h3>
+
+<ul>
+<li>
+<a href="https://www.intechnic.com/blog/top-50-examples-best-responsive-designs/">This top 50 list.</a>
+</li>
+</ul>
+
+<h2>Acknowledgements</h2>
+
+<ul>
+<li>
+My mentor for suggesting bootstrap as the navigation bar, which makes it more friendly for mobile devices.
+</li>
+</ul>
