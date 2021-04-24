@@ -930,11 +930,21 @@ h2 {
     }
     
     .img-wrapper-service {
-        margin-bottom: 150px;
+        margin-bottom: 20px;
+        height: 850px;
     }
 
     .service-image {
-        height: 630px;
+        height: 100%;
+
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .img-wrapper-service {
+        height: 480px;
+
     }
 }
 
