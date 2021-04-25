@@ -1,15 +1,12 @@
 <h1 style="text-align: center;">My First Website</h1>
 
-[View my Project here!](https://https://jacobmolsby93.github.io/Milestoneproject-1/)
+[View my Project here!](https://jacobmolsby93.github.io/Milestoneproject-1/)
 
 <p>
 This is our first project with The Code Institute, I have chosen to use the project idea 3.
 A portfolio website, The website is created using HTML5, CSS3 and some Bootsrap input!
 </p>
-
-<img src="assets/images/milestonewebsite.png"
-     alt="Picture of my website."
-     style="height: 100% width: 100%;" />
+<a href="https://jacobmolsby93.github.io/Milestoneproject-1/"><img src="https://i.ibb.co/qntf75B/milstonewebsite.png" alt="milstonewebsite" style="width: 100%"></a>
 
 
 <h2>User Experience (UX)</h2>
@@ -28,7 +25,9 @@ First Time Visitor Goals
 <ol>
 <li>
 <p>
-I want visitors to come to my page and see a clear and well-worked webpage, 
+I want visitors to come to my page and see a clear and well-worked webpage. 
+By achieving this I have chosen the styling of my website to be straight forward. using a navigation bar from bootstrap that will be responsive.
+For first-time users, they will have a clear understanding of how to navigate through the page to easily find the content that they are looking for. We learned from the course, the 3 click rule. To be able to navigate throughout the page and find what you are looking for in no more than 3 clicks.
 </p>
 </li>
 <li>
@@ -50,7 +49,7 @@ Returning Visitor Goals
 <ol>
 <li>
 <p>
-As a returning visitor, I want to easily access the portfolio and contact page.
+As a returning visitor, I want to easily access the portfolio and contact page. I have achived this with the help from bootstrap and its navigation bar so that the users can easily navigate throughout the page with a single click.
 </p>
 </li>
 <li>
@@ -101,25 +100,8 @@ The images chosen for my webpage, are images that suit the design. Minimalistic 
 </h3>
 <ul>
 <li>
-Home Page Wireframe
-
+<a href="https://github.com/jacobmolsby93/Milestoneproject-1/blob/master/milestonewireframe.bmpr">Wireframe file</a>
 </li>
-<li>
-About Me Page Wireframe
-</li>
-<li>
-Service Page Wireframe
-</li>
-<li>
-Portfolio Page Wireframe
-</li>
-<li>
-Contact Page Wireframe
-</li>
-
-</ul>
-</li>
-
 </ul>
 
 <h2 style="font-weight: bold;">Features</h2>
@@ -227,6 +209,20 @@ Testing was made simple by the use of the W3C Markup Validator, together with th
 I found that the process is a smooth and easy way of checking your code for any simple mistakes.
 </p>
 
+<h2 style="font-weight: bold;">Testing User Stories from User Experience (UX) Section</h2>
+<ul>
+<li style="font-weight: bold;">
+First Time Visitor Goals
+<ol>
+<li>
+
+</li>
+</ol>
+</li>
+
+
+</ul>
+
 <ul>
 <li>
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjacobmolsby93.github.io%2FMilestoneproject-1%2F" target="_blank">HTML For Entire Page</a>
@@ -241,8 +237,6 @@ I found that the process is a smooth and easy way of checking your code for any 
     </a>
 </p></a>
 </li>
-</ul>
-
 </ul>
 
 <h3 style="font-weight: bold;">Further Testing</h3>
@@ -266,12 +260,21 @@ Mainly the testing was done to see if there were any bugs in the CSS. Checking t
 <h3 style="font-weight: bold;">Known Bugs</h3>
 <ul>
 <li>
-The main bug I have come across is on the portfolio page, the overlay on the images. Sometimes does not completely align with the image itself.
+One bug that has been noticed is, on the Portfolio Page. On certain devices, the text-overlay when you hover over the items. The overlay does not always align with the images. Its not alot but a few px.
 </li>
 <br>
 <li>
 Another bug is that on some devices. On the contact page. the Send button at the bottom of the contact form. Does not appear white, but grey instead.
 </li>
+<br>
+<li>
+On the Service page for some reason, On some devices the margin between the main background image and the elements beneath it gets to large. mainly when viewed on google chrome, does not seem to happen on firefox which i have been using during this development.
+</li>
+<br>
+<li>
+During my last mentor session, my mentor pointed out that when the page goes into the mobile version the dropdown menu does not close unless you press one of the links. this was an easy fix of deleting duplicates of the bootsrap script.
+</li>
+
 </ul>
 
 <h2 style="font-weight: bold;">Deployment</h2>
@@ -283,6 +286,32 @@ Another bug is that on some devices. On the contact page. the Send button at the
 <p>
 The Website was deployed using GitHub and its Pages site. An easy way to deploy the project.
 </p>
+
+<ol>
+<li>
+The first step in deploying your website using Github Pages is to push your content from Gitpod to GitHub, using the terminal in Gitpod.
+</li>
+<br>
+<li>
+When pushed you can see that the files you pushed has been transferd to GitHub in this section <a href="https://github.com/jacobmolsby93/Milestoneproject-1">Github</a>
+</li>
+<br>
+<li>
+Then you navigate to the <a href="https://github.com/jacobmolsby93/Milestoneproject-1/settings">Settings</a> Page.
+</li>
+<br>
+<li>
+When on the Settings page, on your left hand side there is a column of options. 1 option up from the very bottom is the <a href="https://github.com/jacobmolsby93/Milestoneproject-1/settings/pages">Pages</a> tab.
+</li>
+<br>
+<li>
+When you are in the Pages section, You choose the branch to be master and hit save.
+</li>
+<br>
+<li>
+Then you refresh the page. A green container will appear with the text of "Your site is published at <a href="https://jacobmolsby93.github.io/Milestoneproject-1/">https://jacobmolsby93.github.io/Milestoneproject-1/"</a>
+</li>
+</ol>
 
 
 
