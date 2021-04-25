@@ -208,21 +208,6 @@ Pleasing and informative imagery
 Testing was made simple by the use of the W3C Markup Validator, together with the W3C CSS Validator.
 I found that the process is a smooth and easy way of checking your code for any simple mistakes.
 </p>
-
-<h2 style="font-weight: bold;">Testing User Stories from User Experience (UX) Section</h2>
-<ul>
-<li style="font-weight: bold;">
-First Time Visitor Goals
-<ol>
-<li>
-
-</li>
-</ol>
-</li>
-
-
-</ul>
-
 <ul>
 <li>
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjacobmolsby93.github.io%2FMilestoneproject-1%2F" target="_blank">HTML For Entire Page</a>
@@ -238,7 +223,77 @@ First Time Visitor Goals
 </p></a>
 </li>
 </ul>
+<br>
+<h2 style="font-weight: bold; text-align: left;">Testing User Stories from User Experience (UX) Section</h2>
 
+
+<ul>
+
+<li style="font-weight: bold;">
+First Time Visitor Goals
+<p>
+The tester of this website, is my brother.
+</p>
+</li>
+<br>
+<ul style="font-weight: normal;">
+<li>
+When I enter the page I want to be able to see what is offered to me, and how this is presented is crucial.
+I want the information to be presented in a neat and organized manner, which is easy to navigate through.
+</li>
+<br>
+<ol>
+<li>
+When entering the site you are greeted with the landing page which tells you a little about the developer and owner of the website. further down there are some images that represents the developer's knowledge in the different languages of HTML and CSS</li>
+<br>
+<li>
+The Landing page is neatly presented, with a navigation bar that has easy access to the rest of the website, further down the page in the footer there are the same links plus some links to the developer's social links.</li>
+<br>
+<li>
+On the Landing page text, there is a call-to-action button, which leads you to the contact page.
+</li>
+<br>
+<li>
+As a first-time visitor, it would be nice to see who the person that developed the page is like and to find out some information about him. I think the about page is simple but you get a feel for the person behind the code.
+</li>
+</ol>
+</ul>
+<br>
+<li style="font-weight: bold;">
+Returning visitor goals.
+</li>
+<br>
+<ol>
+<li>
+As a returning visitor, it is important to understand the services provided and how to easily contact the developer. Through the navigation bar, you have the Contact page tab, which redirects you to the page in a click and a contact form is available for contacting the developer.
+</li>
+<br>
+<li>
+To see the services provided by the developer The services tab in the navigation bar is a simple click away and lets you find out more about the services provided.
+Another simple but clear page for the user to understand what is being offered.
+
+</li>
+<br>
+<li>
+When you are inspecting a website for the first time, I think that credibility is key for the future client to get a perspective of how the developer is working. the portfolio Tab in the navigation bar gets you the Portfolio page.
+Where 6 different websites that are previously built are displayed on the page with a link to the respective pages.
+The link appears only when you hover the mouse over one of the images.
+</li>
+<br>
+
+</ol>
+
+</ul>
+</ul>
+
+<h2>Overall Experience</h2>
+<ul>
+<li>
+Overall I think that Jacob has developed a simple but clear website, that is aesthetically pleasing. you get a clear understanding of the information which is being relayed and how to use this information to contact him. As a first website, I am impressed with the work he has done. 
+</li>
+<br>
+
+<hr>
 <h3 style="font-weight: bold;">Further Testing</h3>
 <ul>
 <li>
